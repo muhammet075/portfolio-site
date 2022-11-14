@@ -1,11 +1,17 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
-
 export default function handler(req, res) {
   res.status(200).json(
 
     {
       "portfolio":[
+        {
+          "projectname": "ANCORE Build", 
+          "url": "https://ancore.build/",
+          "img": "https://ancoredesigns.com/wp-content/uploads/2022/05/ancoredesigns-black.svg",
+          "date": "2022",
+          "function": "Developing, Designing"
+        },
         {
           "projectname": "ANCORE Designs", 
           "url": "https://ancoredesigns.com/",

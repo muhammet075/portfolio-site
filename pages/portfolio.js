@@ -1,12 +1,15 @@
-import Portfoliocard from "../components/portfoliocard";
+import Websitelist from "../components/websitelist";
+import Logolist from "../components/logolist";
 
 function Portfolio(){
 
     return(
-        <>
+        <div className="container">
             <h1>Portfolio</h1>
-            <Portfoliocard/>
-        </>
+            <p>Slechts een greep</p>
+            <Websitelist/>
+            <Logolist/>
+        </div>
     )
 
 }
