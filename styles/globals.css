@@ -31,6 +31,14 @@ main{
   margin: 0 auto;
 }
 
+.container h1{
+  font-weight: 400;
+}
+
+.container h2{
+  font-weight: 200;
+}
+
 .displayblock{
   display: block !important;
 }

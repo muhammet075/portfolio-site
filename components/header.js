@@ -17,7 +17,7 @@ function Header() {
                 <div className="container">
                     <nav>
                         <Link href="/">
-                            <Image src={Logo} alt="Picture of the author"/>
+                            <h1>Komur.nl</h1>
                         </Link>
 
                         <ul>

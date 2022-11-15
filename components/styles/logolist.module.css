@@ -114,3 +114,29 @@
     padding: 10px 0;
     border-radius: 3px;
 }
+
+
+@media screen and (max-width: 992px) {
+    .logolist section{
+        max-width: 150px;
+        margin: 0 15px 50px;
+    }
+
+    .logolist section h3{
+        font-size: 0.7em;
+    } 
+
+    .popup > section{
+        max-width: 100%;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .popup > section div{
+        width: 70% !important;
+    }
+
+    .popup > section div:nth-of-type(2){
+        padding: 25px 0;
+    }
+}
