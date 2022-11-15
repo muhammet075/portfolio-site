@@ -10,7 +10,7 @@ function Header() {
             <Head>
                 <title>Komur - Portfolio</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                <script src="https://kit.fontawesome.com/e367b28ca4.js" crossorigin="anonymous"></script>
+                <script src="https://kit.fontawesome.com/e367b28ca4.js" crossorigin="anonymous" defer></script>
             </Head>
 
             <header className={styles.header}>

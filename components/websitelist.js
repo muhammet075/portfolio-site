@@ -34,7 +34,7 @@ function Websitelist() {
                                     <section>
                                         <div>
                                             <img src={websitedata.img}/>
-                                            <a target="_blank" href={websitedata.url}>Visit</a>
+                                            <a target="_blank" rel="noreferrer" href={websitedata.url}>Visit</a>
                                         </div>
                                         <div>
                                             <h3>{websitedata.name}</h3>
